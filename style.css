@@ -1,0 +1,76 @@
+/*style.css*/
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    color: white;
+    
+    padding: 16px;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    
+   
+    
+}
+
+.header,
+.header-links {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.hero-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3882F6 ;
+    width: 100px;
+    border-radius: 20%;
+    padding: 2px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.header-container p {
+    width: 400px;
+    margin-top: 10px;
+   
+}
+
+.header-container img {
+    align-self: end ;
+    justify-items: center;
+    
+}
+
